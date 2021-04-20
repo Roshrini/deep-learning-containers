@@ -81,6 +81,7 @@ def launch_sagemaker_local_ec2_instance(image, ami_id, ec2_key_name, region):
     return instance_id, public_ip_address
 
 
+
 def generate_sagemaker_pytest_cmd(image, sagemaker_test_type):
     """
     Parses the image ECR url and returns appropriate pytest command
