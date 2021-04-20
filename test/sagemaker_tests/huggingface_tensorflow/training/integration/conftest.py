@@ -22,6 +22,7 @@ from sagemaker.tensorflow import TensorFlow
 
 from ..integration import NO_P2_REGIONS, NO_P3_REGIONS, get_ecr_registry
 
+
 logger = logging.getLogger(__name__)
 logging.getLogger('boto').setLevel(logging.INFO)
 logging.getLogger('botocore').setLevel(logging.INFO)
